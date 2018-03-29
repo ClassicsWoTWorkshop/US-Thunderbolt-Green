@@ -1,0 +1,10 @@
+<hull.model>
+  <tank>	true	</tank>
+  <materialNames>
+  </materialNames>
+  <visibilityBox>
+    <min>-1.91351 -1.05528 -3.25869</min>
+    <max>1.91619 0.609257 3.12307</max>
+  </visibilityBox>
+  <nodefullVisual>vehicles/american/A117_T26E5/crash/lod0/Hull</nodefullVisual>
+</hull.model>
