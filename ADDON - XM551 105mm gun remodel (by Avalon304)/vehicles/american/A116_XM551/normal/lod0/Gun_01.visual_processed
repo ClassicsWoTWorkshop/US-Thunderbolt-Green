@@ -1,0 +1,193 @@
+<exporter_000_temp.visual>
+	<node>
+		<identifier>	Scene Root	</identifier>
+		<transform>
+			<row0>	1.000000 0.000000 0.000000	</row0>
+			<row1>	0.000000 1.000000 0.000000	</row1>
+			<row2>	0.000000 0.000000 1.000000	</row2>
+			<row3>	0.000000 0.000000 0.000000	</row3>
+		</transform>
+		<node>
+			<identifier>	Gun	</identifier>
+			<transform>
+				<row0>	1.000000 0.000000 0.000000	</row0>
+				<row1>	0.000000 1.000000 0.000000	</row1>
+				<row2>	0.000000 0.000000 1.000000	</row2>
+				<row3>	0.000000 0.000000 0.000000	</row3>
+			</transform>
+			<node>
+				<identifier>	G	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	0.000000 0.000000 2.413967	</row3>
+				</transform>
+				<node>
+					<identifier>	HP_gunFire	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	0.000000 0.000000 1.961540	</row3>
+					</transform>
+				</node>
+				<node>
+					<identifier>	GBlendBonedefault	</identifier>
+					<transform>
+						<row0>	1.000000 0.000000 0.000000	</row0>
+						<row1>	0.000000 1.000000 0.000000	</row1>
+						<row2>	0.000000 0.000000 1.000000	</row2>
+						<row3>	-0.000000 -0.000000 -2.413967	</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>	GunBlendBonedefault	</identifier>
+				<transform>
+					<row0>	1.000000 0.000000 0.000000	</row0>
+					<row1>	0.000000 1.000000 0.000000	</row1>
+					<row2>	0.000000 0.000000 1.000000	</row2>
+					<row3>	-0.000000 -0.000000 -0.000000	</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<renderSet>
+		<treatAsWorldSpaceObject>	true	</treatAsWorldSpaceObject>
+		<node>	GBlendBonedefault	</node>
+		<node>	GunBlendBonedefault	</node>
+		<geometry>
+			<vertices>	default.vertices	</vertices>
+			<primitive>	default.indices	</primitive>
+			<primitiveGroup>	0
+				<material>
+					<identifier>gun_sheridan</identifier>
+					<fx>shaders/std_effects/PBS_tank_skinned.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>3.50685 1.75342 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_AM.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.18</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+				</material>
+			</primitiveGroup>
+			<primitiveGroup>	1
+				<material>
+					<identifier>gun_m48</identifier>
+					<fx>shaders/std_effects/PBS_tank_skinned.fx</fx>
+					<collisionFlags>0</collisionFlags>
+					<materialKind>0</materialKind>
+					<property>
+						g_detailUVTiling
+						<Vector4>3.50685 3.50685 0.000000 0.000000</Vector4>
+					</property>
+					<property>
+						normalMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_2_ANM.dds</Texture>
+					</property>
+					<property>
+						diffuseMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_2_AM.dds</Texture>
+					</property>
+					<property>
+						colorIdMap
+						<Texture>vehicles/chinese/A116_XM551/XM551_guns_2_ID.dds</Texture>
+					</property>
+					<property>
+						metallicDetailMap
+						<Texture>vehicles/russian/Tank_detail/Details_map.dds</Texture>
+					</property>
+					<property>
+						metallicGlossMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_2_GMM.dds</Texture>
+					</property>
+					<property>
+						excludeMaskAndAOMap
+						<Texture>vehicles/american/A116_XM551/XM551_guns_2_AO.dds</Texture>
+					</property>
+					<property>
+						g_detailPowerGloss
+						<Float>0.35</Float>
+					</property>
+					<property>
+						g_detailPowerAlbedo
+						<Float>0.11</Float>
+					</property>
+					<property>
+						g_maskBias
+						<Float>0.22</Float>
+					</property>
+					<property>
+						g_detailPower
+						<Float>5</Float>
+					</property>
+					<property>
+						g_useDetailMetallic
+						<Bool>true</Bool>
+					</property>
+					<property>
+						g_useNormalPackDXT1
+						<Bool>false</Bool>
+					</property>
+					<property>
+						alphaTestEnable
+						<Bool>false</Bool>
+					</property>
+				</material>
+			</primitiveGroup>
+		</geometry>
+	</renderSet>
+	<boundingBox>
+		<min>	-0.631184 -0.286403 -0.024564	</min>
+		<max>	0.631188 0.292881 4.454006	</max>
+	</boundingBox>
+</exporter_000_temp.visual>
